@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Burger House</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="#">
+              <img
+                src="assets/logo-dark.png"
+                alt="logo"
+                class="nav__logo-dark"
+              />
+              <img
+                src="assets/logo-white.png"
+                alt="logo"
+                class="nav__logo-white"
+              />
+            </a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#home">HOME</a></li>
+          <li><a href="#special">SPECIAL</a></li>
+          <li><a href="#menu">MENU</a></li>
+          <li><a href="#event">EVENTS</a></li>
+          <li><a href="#contact">CONTACT US</a></li>
+        </ul>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <div class="header__image">
+          <img src="assets/header.png" alt="header" />
+        </div>
+        <div class="header__content">
+          <h2>バーガーの最高の味を楽しむには良い時期</h2>
+          <h1>BURGER<br /><span>WEEK</span></h1>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container banner__container" id="special">
+      <div class="banner__card">
+        <p>すぐ試してみてください</p>
+        <h4>MOST POPULAR BURGER</h4>
+      </div>
+      <div class="banner__card">
+        <p>すぐ試してみてください</p>
+        <h4>MORE FUN<br />MORE TASTE</h4>
+      </div>
+      <div class="banner__card">
+        <p>すぐ試してみてください</p>
+        <h4>FRESH & CHILI</h4>
+      </div>
+    </section>
+
+    <section class="section__container order__container" id="menu">
+      <h3>ALWAYS TASTEY BURGER</h3>
+      <h2 class="section__header">CHOOSE & ENJOY</h2>
+      <p class="section__description">
+        クラシックな味を求めるか、大胆な組み合わせを楽しみたいかにかかわらず、あなたの料理の旅はここから始まります。
+        Burger Houseで、あなた自身の好みに合わせたバーガー体験を作りながら、食欲を満たし、すべての一口を味わってください
+      </p>
+      <div class="order__grid">
+        <div class="order__card">
+          <img src="assets/order-1.png" alt="order" />
+          <h4>Chicken Burger</h4>
+          <p>
+            弊社のチキンバーガーの完璧な味わいに舌鼓を打ちながら、時代を超えた素晴らしい体験をお楽しみください
+          </p>
+          <button class="btn">ORDER NOW</button>
+        </div>
+        <div class="order__card">
+          <img src="assets/order-2.png" alt="order" />
+          <h4>Veggie Delight Burger</h4>
+          <p>
+            弊社のベジデライトバーガーの鮮やかな味を堪能し、新鮮さと栄養価の高さを称賛しましょう
+          </p>
+          <button class="btn">ORDER NOW</button>
+        </div>
+        <div class="order__card">
+          <img src="assets/order-3.png" alt="order" />
+          <h4>BBQ Bacon Burger</h4>
+          <p>
+            BBQベーコンバーガーで、燻製の香りと旨味のシンフォニーを堪能してください。バーガーはグリルされ、カリカリのベーコンがトッピングされています。
+          </p>
+          <button class="btn">ORDER NOW</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container event__container" id="event">
+      <div class="event__content">
+        <div class="event__image">
+          <img src="assets/event.png" alt="event" />
+        </div>
+        <div class="event__details">
+          <h3>Discover</h3>
+          <h2 class="section__header">UPCOMING EVENTS</h2>
+          <p class="section__description">
+            バーガーカンパニーでは、限定のバーガー試食会やシェフとのコラボレーション、コミュニティ支援活動や季節ごとのイベントなど、常に特別なものがあります。
+            私たちの大切なお客様に喜びと味をお届けし続ける中、今後のイベント、プロモーション、集まりについて最初にお知らせいたします。
+            一緒に思い出に残る瞬間と美味しい思い出を作りましょう！
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="reservation" id="contact">
+      <div class="section__container reservation__container">
+        <h3>RESERVATION</h3>
+        <h2 class="section__header">BOOK YOUR TABLE</h2>
+        <form action="/">
+          <input type="text" placeholder="NAME" />
+          <input type="email" placeholder="EMAIL" />
+          <input type="date" placeholder="DATE" />
+          <input type="time" placeholder="TIME" />
+          <input type="number" placeholder="PEOPLE" />
+          <button class="btn" type="submit">FIND TABLE</button>
+        </form>
+      </div>
+      <img
+        src="assets/reservation-bg-1.png"
+        alt="reservation"
+        class="reservation__bg-1"
+      />
+      <img
+        src="assets/reservation-bg-2.png"
+        alt="reservation"
+        class="reservation__bg-2"
+      />
+    </section>
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__logo">
+          <img src="assets/logo-white.png" alt="logo" />
+        </div>
+        <div class="footer__content">
+          <p>
+            バーガーカンパニーへようこそ。ここでは、素晴らしい食事と心からのおもてなしの情熱が一つになります。
+            私たちの物語は、完璧なバーガー体験を創り出すための情熱に満ちています。
+            最高の食材を厳選し、すべての一口に絶妙な味をお届けします。
+          </p>
+          <div>
+            <ul class="footer__links">
+              <li>
+                <span><i class="ri-map-pin-2-fill"></i></span>
+                Kobe,Hyogo,tachibanadori
+              </li>
+              <li>
+                <span><i class="ri-mail-fill"></i></span>
+                info@burgerhouse.com
+              </li>
+            </ul>
+            <div class="footer__socials">
+              <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+              <a href="#"><i class="ri-instagram-fill"></i></a>
+              <a href="#"><i class="ri-twitter-fill"></i></a>
+              <a href="#"><i class="ri-whatsapp-fill"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2024 TheinPham. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    
+  </body>
+</html>
